@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.musala.atmosphere</groupId>
+  <artifactId>atmosphere-agent-device-lib</artifactId>
+  <version>0.0.2</version>
+  <packaging>jar</packaging>
+  <name>atmosphere-agent-device-lib</name>
+  <description>The agent-device libraries of the ATMOSPHERE mobile testing framework</description>
+  <url>http://atmosphereframework.com/</url>
+  <licenses>
+    <license>
+      <name>The GNU General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Musala Soft</name>
+	  <email>atmosphere@musala.com</email>
+	  <organization>Musala Soft</organization>
+	  <organizationUrl>http://www.musala.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/MusalaSoft/atmosphere-agent-device-lib.git</connection>
+	<developerConnection>scm:git:https://github.com/MusalaSoft/atmosphere-agent-device-lib.git</developerConnection>
+    <url>https://github.com/MusalaSoft/atmosphere-agent-device-lib</url>
+  </scm>
+  <dependencies>
+	<dependency>
+      <groupId>com.musala.atmosphere</groupId>
+      <artifactId>atmosphere-commons</artifactId>
+      <version>[0.0.1,1.0.0)</version>
+    </dependency>
+  </dependencies>
+</project>
