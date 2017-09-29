@@ -1,0 +1,11 @@
+musala / atmosphere / atmosphere-agent-device-lib / 0.0.2
+    Add SHOW_TOAST service request
+    
+musala / atmosphere / atmosphere-client-server-lib / 0.1.0
+    Add utilities for data serialization/deserialization and remove RMI-related logic
+    
+musala / atmosphere / atmosphere-commons / 0.1.0
+    Add WebSocket layer
+    
+musala / atmosphere / atmosphere-server-agent-lib / 0.1.0
+    Add common server-agent utilities for printing 2d array of data on the console in table format and remove the redundant serialVersionUIDs
