@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.musala.atmosphere</groupId>
+  <artifactId>atmosphere-client</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+  <name>atmosphere-client</name>
+  <description>The client library of the ATMOSPHERE mobile testing framework</description>
+  <url>http://atmosphereframework.com/</url>
+  <licenses>
+    <license>
+      <name>The GNU General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Musala Soft</name>
+	  <email>atmosphere@musala.com</email>
+	  <organization>Musala Soft</organization>
+	  <organizationUrl>http://www.musala.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/MusalaSoft/atmosphere-client.git</connection>
+	<developerConnection>scm:git:https://github.com/MusalaSoft/atmosphere-client.git</developerConnection>
+    <url>https://github.com/MusalaSoft/atmosphere-client</url>
+  </scm>
+  <dependencies>
+	<dependency>
+      <groupId>com.musala.atmosphere</groupId>
+      <artifactId>atmosphere-client-server-lib</artifactId>
+      <version>[0.0.1,1.0.0)</version>
+    </dependency>
+	<dependency>
+      <groupId>com.musala.atmosphere</groupId>
+      <artifactId>atmosphere-bitmap-comparison</artifactId>
+      <version>[0.0.1,1.0.0)</version>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.9.13.8</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.tyrus</groupId>
+      <artifactId>tyrus-client</artifactId>
+      <version>1.13.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.tyrus</groupId>
+      <artifactId>tyrus-container-grizzly-client</artifactId>
+      <version>1.13.1</version>
+      <scope>runtime</scope>
+    </dependency>
+	<dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+	<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

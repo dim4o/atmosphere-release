@@ -20,3 +20,6 @@ musala/atmosphere/atmosphere-agent/0.1.0
 
 musala/atmosphere/atmosphere-server-agent-lib/0.0.2
     Update binaries and Travis CI build
+
+musala/atmosphere/atmosphere-client/0.1.0
+    Migrate from RMI to WebSocket communication
