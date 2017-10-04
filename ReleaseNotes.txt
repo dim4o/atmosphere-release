@@ -1,25 +1,28 @@
 TODO: use a link to GitHub release notes instead a description
 
-musala/atmosphere/atmosphere-agent-device-lib/0.0.2
+com/musala/atmosphere/atmosphere-agent-device-lib/0.0.2
     Add SHOW_TOAST service request
 
-musala/atmosphere/atmosphere-client-server-lib/0.1.0
+com/musala/atmosphere/atmosphere-client-server-lib/0.1.0
     Add utilities for data serialization/deserialization and remove RMI-related logic
 
-musala/atmosphere/atmosphere-commons/0.1.0
+com/musala/atmosphere/atmosphere-commons/0.1.0
     Add WebSocket layer
 
-musala/atmosphere/atmosphere-server-agent-lib/0.1.0
+com/musala/atmosphere/atmosphere-server-agent-lib/0.1.0
     Add common server-agent utilities for printing 2d array of data on the console in table format and remove the redundant serialVersionUIDs
 
-musala/atmosphere/atmosphere-server/0.1.0
+com/musala/atmosphere/atmosphere-server/0.1.0
     Migrate from RMI to WebSocket communication
 
-musala/atmosphere/atmosphere-agent/0.1.0
+com/musala/atmosphere/atmosphere-agent/0.1.0
     Migrate from RMI to WebSocket communication
 
-musala/atmosphere/atmosphere-server-agent-lib/0.0.2
+com/musala/atmosphere/atmosphere-server-agent-lib/0.0.2
     Update binaries and Travis CI build
 
-musala/atmosphere/atmosphere-client/0.1.0
+com/musala/atmosphere/atmosphere-client/0.1.0
     Migrate from RMI to WebSocket communication
+    
+com/musala/atmosphere/atmosphere-service/0.0.3
+    Add `showToast` method to `AgentRequestHandler` - shows a toast message on the screen with the `ATMOSPHERE` prefix
