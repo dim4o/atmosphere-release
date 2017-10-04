@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.musala.atmosphere</groupId>
+  <artifactId>atmosphere-service</artifactId>
+  <version>0.0.3</version>
+  <packaging>apk</packaging>
+  <name>atmosphere-service</name>
+  <description>The basic on-device component of the ATMOSPHERE framework that provides a socket connection between the Agent and the Device and some additional classes and services for obtaining and manipulating information about the device state.</description>
+  <url>http://atmosphereframework.com/</url>
+  <licenses>
+    <license>
+      <name>The GNU General Public License, Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Musala Soft</name>
+	  <email>atmosphere@musala.com</email>
+	  <organization>Musala Soft</organization>
+	  <organizationUrl>http://www.musala.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/MusalaSoft/atmosphere-service.git</connection>
+	<developerConnection>scm:git:https://github.com/MusalaSoft/atmosphere-service.git</developerConnection>
+    <url>https://github.com/MusalaSoft/atmosphere-service</url>
+  </scm>
+</project>
