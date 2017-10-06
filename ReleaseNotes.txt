@@ -26,3 +26,5 @@ com/musala/atmosphere/atmosphere-client/0.1.0
     
 com/musala/atmosphere/atmosphere-service/0.0.3
     Add `showToast` method to `AgentRequestHandler` - shows a toast message on the screen with the `ATMOSPHERE` prefix
+    
+com/musala/atmosphere/atmosphere-ui-viewer/0.0.1
